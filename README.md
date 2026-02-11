@@ -1,4 +1,4 @@
-# Project Name: [mobupps]
+# Project Name: mobupps
 
 This project is an automated testing suite built with Cypress to ensure the stability and functionality of the application.
 
