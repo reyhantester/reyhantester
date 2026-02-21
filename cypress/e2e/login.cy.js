@@ -6,7 +6,7 @@ describe('template spec', () => {
     cy.get('form button[type="submit"]').click()
     //-----------------------------------------------------//
     cy.url().should('include', '/dashboard')
-    cy.wait(5000)
+    cy.wait(7000)
     // 1. Open the date picker popover
     cy.get('button').contains('Date Range:').click();
     // 2. Select "Last Month" from the predefined ranges
